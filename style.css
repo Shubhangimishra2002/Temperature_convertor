@@ -1,0 +1,76 @@
+body {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	background-color: #faf6f6;
+  }
+  
+  .container {
+	max-width: 800px;
+	height: 400px;
+	margin: 55px auto;
+	padding: 20px;
+	background-color: #67e7f0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	text-align: center;
+  }
+  
+  h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	font-family:cursive
+  }
+  
+  form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+  }
+  
+  label {
+	font-size: 24px;
+	margin: 10px 10px;
+  }
+  
+  input[type="number"] {
+	width: 120px;
+	height: 25px;
+	font-size: 24px;
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 5px;
+  }
+  
+  
+  button[type="button"] {
+	background-color: #f16b66;
+	color: black;
+	color: white;
+	border:none;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: 'Times New Roman', Times, serif;
+  }
+  
+  button[type="button"]:hover {
+	background-color: #f16b66;
+	color: black;
+  }
+  
+  
+  output {
+	display: inline-block;
+	font-size: 24px;
+	width: 110px;
+	height: 25px;
+	padding: 5px;
+	border: 2px solid black;
+	margin-left: 8px;
+	text-align: center;
+	border-radius: 5px;
+  }
+  
